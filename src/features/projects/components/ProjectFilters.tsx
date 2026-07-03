@@ -11,7 +11,7 @@ interface ProjectFiltersProps {
   onReset: () => void;
 }
 
-const ProjectFilters: React.FC<ProjectFiltersProps> = ({
+const ProjectFilter: React.FC<ProjectFiltersProps> = ({
   filters,
   onFilterChange,
   onReset,
@@ -132,4 +132,4 @@ const ProjectFilters: React.FC<ProjectFiltersProps> = ({
   );
 };
 
-export default ProjectFilters;
+export default ProjectFilter;
