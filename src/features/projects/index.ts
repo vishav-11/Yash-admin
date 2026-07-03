@@ -1,11 +1,12 @@
 // Components
 export { default as ProjectTable } from "./components/ProjectTable";
 export { default as ProjectForm } from "./components/ProjectForm";
-export { default as ProjectFilters } from "./components/ProjectFilters";
+// export { default as ProjectFilters } from "./components/ProjectFilters";
 export { default as ProjectPagination } from "./components/ProjectPagination";
 export { default as ProjectMediaGallery } from "./components/ProjectMediaGallery";
 export { default as ProjectDeleteDialog } from "./components/ProjectDeleteDialog";
 export { default as ProjectMediaDeleteDialog } from "./components/ProjectMediaDeleteDialog";
+export { default as ProjectFilters} from "./components/ProjectFilters";
 
 // Hooks
 export { useProjects } from "./hooks/useProjects";
